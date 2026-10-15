@@ -1,0 +1,86 @@
+{
+  "name": "NEXUS Hub",
+  "short_name": "Hub",
+  "description": "All your NEXUS apps in one dashboard: Bibley, nortest, Calendar, News, Weather and Apologetics101.",
+  "id": "./",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "categories": [
+    "productivity",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Bibley",
+      "short_name": "Bibley",
+      "url": "./?open=bibley",
+      "icons": [
+        {
+          "src": "icons/sc-bibley.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "nortest",
+      "short_name": "nortest",
+      "url": "./?open=nortest",
+      "icons": [
+        {
+          "src": "icons/sc-nortest.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "NEXUS Calendar",
+      "short_name": "Calendar",
+      "url": "./?open=calendar",
+      "icons": [
+        {
+          "src": "icons/sc-calendar.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Ultimate Weather",
+      "short_name": "Weather",
+      "url": "./?open=weather",
+      "icons": [
+        {
+          "src": "icons/sc-weather.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
